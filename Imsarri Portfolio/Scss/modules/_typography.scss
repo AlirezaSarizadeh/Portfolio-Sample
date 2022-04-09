@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&family=Six+Caps&family=Vazirmatn:wght@400;500&display=swap');
+$ff-s : 'Merriweather' , serif;
+$ff-ss: 'Six Caps' , sans-serif;
+$fw-n : 400;
+$fw-b : 900;
+@mixin sans-serif($fs,$ls:0.15em,$color:$dark-gray,$tt:uppercase,$lh:1) {
+    font-size: $fs;
+    letter-spacing: $ls;
+    color: $color;
+    text-transform: $tt;
+    line-height: $lh;
+    font-family: $ff-ss;
+}
